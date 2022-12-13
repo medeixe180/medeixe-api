@@ -1,0 +1,26 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>40</x><y>210</y><w>180</w><h>190</h></coordinates><panel_attributes>Victim
+--
+-id: Long
+-cellPhone: String
+-name: String
+-protectiveMeasure: Boolean
+-email: String
+-address: Sring
+-ocurrences: List&lt;Ocurrence&gt;
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>210</y><w>130</w><h>200</h></coordinates><panel_attributes>Occurrence
+--
+-id: int
+-latitude: int
+-longitude: int
+-agressionType: int
+-dateHour: DateTime
+-priorityLevel: int
+-attended: bool
+-victim: Vitima
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>290</y><w>180</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+
+m2=0..*
+abre &gt;</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element></diagram>
