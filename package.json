@@ -1,0 +1,24 @@
+{
+  "name": "medeixe-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medeixe180/medeixe-api.git"
+  },
+  "author": "José Eduardo (@zeduardu)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medeixe180/medeixe-api/issues"
+  },
+  "homepage": "https://github.com/medeixe180/medeixe-api#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "husky": "^8.0.2"
+  }
+}
